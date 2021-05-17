@@ -1,3 +1,6 @@
+from urllib.parse import ParseResult
+
+
 class List:
 
     def demo_syntax(self):
@@ -94,5 +97,13 @@ print(z)
 del l[0]
 print(l)  # [2, 3, 4, 5, 6, 7, 8, 9]
 
+# region Description
 l2 = sorted(l, reverse=True)
 print(l2)
+# endregion
+print()
+with open("NameTuple.py") as f:
+    src=f.read()
+    print(src)
+    print(f.__dict__)
+

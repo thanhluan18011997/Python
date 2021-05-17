@@ -1,0 +1,2 @@
+hello luan 
+ Do you ready lear django?
